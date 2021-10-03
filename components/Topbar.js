@@ -6,7 +6,7 @@ export default function Topbar() {
     const [navbarOpen, setNavbarOpen] = useState(false);
 
     return (
-        <div className="container flex items-center mx-auto justify-between p-3">
+        <div className="container flex items-center mx-auto justify-between p-3 tracking-wide">
             <nav className="container relative flex flex-wrap items-center justify-between">
                 <div className="container mx-auto flex flex-wrap items-center justify-between">
                     <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
