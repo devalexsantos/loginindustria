@@ -20,18 +20,19 @@ module.exports = {
 
     extend: {
       backgroundImage: theme => ({
-        'hero': "url('/banner-desktops.jpg')"
+        'hero': "url('/banner-desktops.jpg')",
+        'footer': "url('/bottom.jpg')",
       }),
       backgroundColor: theme => ({
         ...theme('colors'),
         'primary': '#096d86',
         'secondary': '#3c3c3c',
-        'danger': '#e3342f',
+        'footerColor': '#080808',
       }),
       textColor: theme => theme('colors'),
       textColor: {
         'primary': '#096d86',
-        'secondary': '#3c3c3c',
+        'secondary': '#7e8184',
         'danger': '#e3342f'
       },
     },

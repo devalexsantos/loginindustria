@@ -4,6 +4,8 @@ import Script from 'next/script';
 import BannerTop from '../components/BannerTop';
 import InfoPallet from '../components/InfoPallet';
 import About from '../components/About';
+import Certificates from '../components/Certificates';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -21,6 +23,8 @@ export default function Home() {
         <BannerTop />
         <InfoPallet />
         <About />
+        <Certificates/>
+        <Footer/>
       </main>
 
       <footer>

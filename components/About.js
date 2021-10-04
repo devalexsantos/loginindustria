@@ -4,8 +4,8 @@ export default function About() {
   return (
     <div className="flex justify-center bg-white py-20">
       <div className="flex flex-col items-center container">
-      <h3 className="text-4xl md:text-5xl font-bold text-primary text-center">Mais sobre a Login Informática</h3>
-        <div className="flex flex-wrap justify-center lg:px-40 p-6 items-center">
+      <h3 className="text-4xl md:text-5xl font-bold text-primary text-center mb-8">Mais sobre a Login Informática</h3>
+        <div className="flex flex-wrap justify-center lg:px-40 items-center">
           <div className="lg:flex-1 px-4 lg:px-12">
             <h4 className="text-xl text-center lg:text-left font-bold text-secondary">Mais de 24 anos de mercado</h4>
             <p className="text-center lg:text-left leading-6 lg:leading-8">
@@ -21,7 +21,7 @@ export default function About() {
             </div>
           </div>
           <div className="lg:flex-1 mt-4 md:p-0">
-          <img className="w-full" src="/banner_mid.jpg"/>
+          <img className="w-full rounded-xl" src="/banner_mid.jpg"/>
           </div>
         </div>
       </div>
