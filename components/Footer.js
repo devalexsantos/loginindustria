@@ -6,7 +6,9 @@ export default function Footer() {
         <h2 className="text-3xl font-bold text-white">Login Informática</h2>
         <div>Com mais de 25 anos de mercado, a Login Informática 
         é uma das empresas pioneiras na fabricação de computadores,
-        notebooks e netbooks.</div>
+        notebooks e netbooks.
+        <p className="text-white underline"><a href="https://loja.login.com.br/nossa-historia/" target="_blank" rel="external">Conheça mais sobre a Login.</a></p>
+        </div>
       </div>
 
       <div className="px-2 py-4 lg:pl-14 w-full lg:w-1/4 items-center leading-9">

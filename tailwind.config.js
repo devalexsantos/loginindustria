@@ -29,6 +29,13 @@ module.exports = {
         'secondary': '#3c3c3c',
         'footerColor': '#080808',
       }),
+      borderColor: theme => ({
+        ...theme('colors'),
+         DEFAULT: theme('colors.gray.300', 'currentColor'),
+        'borderprimary': '#096d86',
+        'secondary': '#ffed4a',
+        'danger': '#e3342f',
+       }),
       textColor: theme => theme('colors'),
       textColor: {
         'primary': '#096d86',

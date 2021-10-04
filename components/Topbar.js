@@ -1,3 +1,4 @@
+import { Link } from '@chakra-ui/react';
 import Image from 'next/image';
 import { useState } from 'react';
 
@@ -36,38 +37,40 @@ export default function Topbar() {
                         }
                         id="example-navbar-danger"
                     >
-                        <ul className="flex flex-col lg:flex-row list-none lg:ml-auto m-auto text-center">
+                        <ul className="flex flex-col lg:flex-row list-none lg:ml-auto m-auto text-center text-sm">
                             <li className="nav-item">
-                                <a
+                                <Link href="/" style={{ textDecoration: 'none' }}>
+                                <div
                                     className="px-3 py-2 flex items-center uppercase hover:bg-primary hover:text-white rounded mx-2"
-                                    href="#pablo"
                                 >
                                     INÍCIO
-                                </a>
+                                </div>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a
-                                    className="px-3 py-2 flex items-center uppercase hover:bg-primary hover:text-white rounded mx-2"
-                                    href="#pablo"
+                                <Link href="/computadores" style={{ textDecoration: 'none' }}>
+                                <div
+                                    className="px-3 py-2 flex items-center uppercase hover:bg-primary hover:text-white hover:no-underline rounded mx-2"
                                 >
                                     COMPUTADORES
-                                </a>
+                                </div>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a
+                                <div
                                     className="px-3 py-2 flex items-center uppercase hover:bg-primary hover:text-white rounded mx-2"
                                     href="#pablo"
                                 >
                                     CENTRAL DE DOWNLOADS
-                                </a>
+                                </div>
                             </li>
                             <li className="nav-item">
-                                <a
+                                <div
                                     className="px-3 py-2 flex items-center uppercase hover:bg-primary hover:text-white rounded border mx-2"
                                     href="#pablo"
                                 >
                                     SUPORTE
-                                </a>
+                                </div>
                             </li>
                         </ul>
                     </div>
