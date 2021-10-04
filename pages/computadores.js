@@ -3,6 +3,7 @@ import Script from 'next/script';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CorporateLine from '../components/CorporateLine';
+import CertificatesSection from '../components/CertificatesSection';
 
 export default function Computadores() {
   return(
@@ -18,6 +19,7 @@ export default function Computadores() {
       <main className="bg-gray-100 font-body">
       <Header/>
         <CorporateLine/>
+        <CertificatesSection />
       <Footer/>
       </main>
 

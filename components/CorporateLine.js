@@ -18,12 +18,16 @@ import {
   AccordionPanel,
   AccordionIcon,
   Box
-} from "@chakra-ui/react"
+} from "@chakra-ui/react";
 
 export default function CorporateLine() {
   const { isOpen: isOpen01, onOpen: onOpen01, onClose: onClose01 } = useDisclosure();
   const { isOpen: isOpen02, onOpen: onOpen02, onClose: onClose02 } = useDisclosure();
   const { isOpen: isOpen03, onOpen: onOpen03, onClose: onClose03 } = useDisclosure();
+
+  const { isOpen: isOpenPC01, onOpen: onOpenPC01, onClose: onClosePC01 } = useDisclosure();
+  const { isOpen: isOpenPC02, onOpen: onOpenPC02, onClose: onClosePC02 } = useDisclosure();
+  const { isOpen: isOpenPC03, onOpen: onOpenPC03, onClose: onClosePC03 } = useDisclosure();
 
 
   const config = {
@@ -196,7 +200,7 @@ export default function CorporateLine() {
           <div className="card-wrapper">
             <div className="card">
             <div className="border-4 m-4">
-              <a className="cursor-pointer" onClick={onOpen01}><img src="/computers/g1.jpg" /></a>
+              <a className="cursor-pointer" onClick={onOpenPC01}><img src="/computers/g1.jpg" /></a>
                 <p className="text-center bg-secondary text-white p-2">
                   Equipamentos de produção com alta tecnologia e performance.
                 </p>
@@ -208,7 +212,7 @@ export default function CorporateLine() {
           <div className="card-wrapper">
             <div className="card">
             <div className="border-4 m-4">
-            <a className="cursor-pointer" onClick={onOpen02}><img src="/computers/g2.jpg" /></a>
+            <a className="cursor-pointer" onClick={onOpenPC02}><img src="/computers/g2.jpg" /></a>
               <p className="text-center bg-secondary text-white p-2">
                 Fabricação de placas mãe e memórias para notebooks e desktops
               </p>
@@ -220,7 +224,7 @@ export default function CorporateLine() {
           <div className="card-wrapper">
             <div className="card">
             <div className="border-4 m-4">
-            <a className="cursor-pointer" onClick={onOpen03}> <img src="/computers/g3.jpg" /></a>
+            <a className="cursor-pointer" onClick={onOpenPC03}> <img src="/computers/g3.jpg" /></a>
             <p className="text-center bg-secondary text-white p-2">
                 Componentes de qualidade que garantem maior desempenho e durabilidade.
               </p>
@@ -275,6 +279,60 @@ export default function CorporateLine() {
 
                 <ModalFooter>
                   <Button colorScheme="blue" mr={3} onClick={onClose03}>
+                    Fechar
+                  </Button>
+                </ModalFooter>
+              </ModalContent>
+            </Modal>
+
+            <Modal isOpen={isOpenPC01} onClose={onClosePC01} size="xl">
+              <ModalOverlay />
+              <ModalContent>
+                <ModalCloseButton />
+                <ModalBody>
+                  <div className="mt-10">
+                <img src="/computers/g1.jpg"/>
+                </div>
+                </ModalBody>
+
+                <ModalFooter>
+                  <Button colorScheme="blue" mr={3} onClick={onClosePC01}>
+                    Fechar
+                  </Button>
+                </ModalFooter>
+              </ModalContent>
+            </Modal>
+
+            <Modal isOpen={isOpenPC02} onClose={onClosePC02} size="xl">
+              <ModalOverlay />
+              <ModalContent>
+                <ModalCloseButton />
+                <ModalBody>
+                <div className="mt-10">
+                <img src="/computers/g2.jpg"/>
+                </div>
+                </ModalBody>
+
+                <ModalFooter>
+                  <Button colorScheme="blue" mr={3} onClick={onClosePC02}>
+                    Fechar
+                  </Button>
+                </ModalFooter>
+              </ModalContent>
+            </Modal>
+
+            <Modal isOpen={isOpenPC03} onClose={onClosePC03} size="xl">
+              <ModalOverlay />
+              <ModalContent>
+                <ModalCloseButton />
+                <ModalBody>
+                <div className="mt-10">
+                <img src="/computers/g3.jpg"/>
+                </div>
+                </ModalBody>
+
+                <ModalFooter>
+                  <Button colorScheme="blue" mr={3} onClick={onClosePC03}>
                     Fechar
                   </Button>
                 </ModalFooter>
