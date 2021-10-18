@@ -1,3 +1,5 @@
+import Script from 'next/script';
+
 export default function Footer() {
   return (
     <div className="flex flex-wrap justify-center py-10 lg:py-20 px-10 lg:px-10 bg-footerColor text-secondary">
@@ -34,6 +36,7 @@ export default function Footer() {
         <span>Alameda das Cajazeiras, 560 - Caminho das Árvores, Salvador - BA, 41820-470
 </span>
       </div>
+      <Script src="https://kit.fontawesome.com/33c943d672.js" crossorigin="anonymous"></Script>
       </div>
   )
 }

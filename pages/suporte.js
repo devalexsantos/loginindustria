@@ -1,17 +1,12 @@
 import Head from 'next/head';
 import Header from '../components/Header';
-import Script from 'next/script';
-import BannerTop from '../components/BannerTop';
-import InfoPallet from '../components/InfoPallet';
-import About from '../components/About';
-import Certificates from '../components/Certificates';
 import Footer from '../components/Footer';
 
-export default function Home() {
+export default function Suporte() {
   return (
     <div>
       <Head>
-        <title>Login Indústria</title>
+        <title>Suporte - Login Indústria</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content="Setor Coorporativo da Login Informática"></meta>
@@ -20,10 +15,7 @@ export default function Home() {
 
       <main className="bg-gray-100 font-body">
         <Header/>
-        <BannerTop />
-        <InfoPallet />
-        <About />
-        <Certificates/>
+
         <Footer/>
       </main>
     </div>
