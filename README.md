@@ -1,29 +1,67 @@
-# Next.js + Tailwind CSS Example
+<h1 align="center">Site Institucional</h1>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<p align="center">Site institucional feito para empresa Login Informática com o objetivo de mostrar a sua indústria. O site tem como finalidade também demonstrar requisitos obrigatórios de licitações do governo, um dos ramos na qual a empresa atua. O compartilhamento do código foi autorizado pela empresa.</p>
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+<div align="center">
+  <h3> 🚧 Em desenvolvimento 🚀 </h3>
+  <strong><a href="https://loginindustria.vercel.app/">🔗 Acompanhe em tempo real - Clique Aqui</a></strong>
+</div>
 
-## Preview
+<div align="center">
+  <h2>Sumário</h2>
+  <ul style="display: flex; justify-content: center; list-style: none">
+    <li style="margin-right: 1rem"><a href="#funcionalidades">Funcionalidades</a></li>
+    <li style="margin-right: 1rem"><a href="#imagens">Imagens</a></li>
+    <li style="margin-right: 1rem"><a href="#tecnologias">Tecnologias</a></li>
+    <li style="margin-right: 1rem"><a href="#autor">Autor</a></li>
+  </ul>
+</div>
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+<div align="center" id="funcionalidades">
+<h4>Funcionalidades</h4>
+- [x] Institucional Fábrica
+- [x] Carrossel de Certificados
+- [x] Modal de Descrição dos Certificados
+- [x] Galeria de Computadores
+- [ ] Input de Catálogos para Exibição via DatoCMS com GraphQL
+- [ ] Páginas de Ferramentas de Suporte
+- [ ] Formulário de Contato por E-mail
+- [ ] Animações de Navegação com Framer Motion
+- [ ] Boas Práticas de SEO
+</div>
+<br/>
+<hr/>
+<div align="center" id="imagens">
+<img alt="Login Industria" title="Alex - Login Industria" src="./github/login-industria-01.gif" width="700px" />
+<img alt="Login Industria" title="Alex - Login Industria" src="./github/login-industria-02.gif" width="700px" />
+</div>
+<div>
+<div style="display: flex; justify-content: center">
+<img style="padding: 1rem" alt="Login Industria" title="Alex - Login Industria" src="./github/login-industria-03.gif" width="400px" />
+<img style="padding: 1rem" alt="Login Industria" title="Alex - Login Industria" src="./github/login-industria-04.gif" width="400px" />
+</div>
+<hr/>
+<div align="center" id="tecnologias">
+<h3>Tecnologias:</h3>
+As ferramentas utilizadas estão sendo:
+<ul style="list-style: none">
+  <li>Javascript</li>
+  <li>Next.Js</li>
+  <li>TailwindCSS</li>
+  <li>GraphQL</li>
+  <li>DatoCMS</li>
+</ul>
+<div align="center">
+  <h3> 🚧 Em desenvolvimento 🚀 </h3>
+  <strong><a href="https://loginindustria.vercel.app/">🔗 Acompanhe em tempo real - Clique Aqui</a></strong>
+</div>
+</div>
+<hr/>
+<div align="center" id="autor" style="display: flex; flex-direction: column; justify-content: center">
+<h3>Autor:</h3>
+<div algin="center">
+<img align="center" alt="Alex Santos" title="Foto de Alex Santos" src="./github/devalexsantos.jpeg" width="150px" style="border-radius: 50%"/>
+</div>
+Alex Santos
+</div>
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
